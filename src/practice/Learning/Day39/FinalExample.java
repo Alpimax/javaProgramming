@@ -4,7 +4,8 @@ public class FinalExample {
     public final int a = 10 ; // hard coded instance variable
     public final int b ;
 
-    public static final
+    public static final String PLANET = "Earth";
+//    public static final -> these keyword
 
     public FinalExample(int num ){
         b=num; // when the object is created,
