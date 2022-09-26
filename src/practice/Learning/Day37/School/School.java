@@ -6,11 +6,11 @@ public class School {
     public static int totalTeachers;
     public static int totalStudents;
 
-    public  static  void  announcement(){
+    public static void announcement() {
         System.out.println("announcement to whole distract.");
     }
 
-    public void lunch (){
-        System.out.println("lunch is at "+ lunchTime );
+    public void lunch() {
+        System.out.println("lunch is at " + lunchTime);
     }
 }
