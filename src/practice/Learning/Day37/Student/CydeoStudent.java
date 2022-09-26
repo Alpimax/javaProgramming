@@ -27,11 +27,9 @@ public class CydeoStudent {
     }
 
     public static void schoolInfo() {
-        System.out.println(schoolName +"Batch "+ batchNumber);
+        System.out.println(schoolName + "Batch " + batchNumber);
         System.out.println("Instructors : " + Arrays.toString(instructors));
     }
-
-
 
 
     @Override
