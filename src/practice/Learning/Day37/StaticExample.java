@@ -12,7 +12,6 @@ public class StaticExample {
         System.out.println(store1.headquarters); // this is valid syntax, but you should use the class name to access, but instance references
 
 
-
         // other static members
         System.out.println(Math.PI); // PI is static
         System.out.println(Integer.MIN_VALUE); // min value is tatic
