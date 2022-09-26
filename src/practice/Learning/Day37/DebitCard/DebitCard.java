@@ -30,8 +30,6 @@ public class DebitCard {
     }
 
 
-
-
     public String toString() {
         return "DebitCard{" +
                 "cardNumber=" + cardNumber +
