@@ -1,26 +1,26 @@
 package practice.Learning.Day38.inheritance;
 
-public class Square extends Shape{
+public class Square extends Shape {
 
     double side;
 
-    public Square(double side){
+    public Square(double side) {
         super("Square");
         this.side = side;
     }
 
     @Override
-    public double area(){
+    public double area() {
         return side * side;
     }
 
     @Override
-    public double perimeter(){
+    public double perimeter() {
         return side * 4;
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return super.toString() + "\nSide: " + side;
     } // calling the super class implementation and adding some part to it
 
