@@ -3,7 +3,7 @@ package practice.Learning.Day37.DebitCard;
 public class Atm {
     public static void main(String[] args) {
 
-        DebitCard alpi = new DebitCard(1234_4244_2425_1532L,"Alper Ozkan","Master",1234,2_000);
+        DebitCard alpi = new DebitCard(1234_4244_2425_1532L, "Alper Ozkan", "Master", 1234, 2_000);
 
         System.out.println(alpi);
     }

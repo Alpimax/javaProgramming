@@ -1,6 +1,6 @@
 package practice.Learning.Day37.Driver;
 
-public class Driver{
+public class Driver {
 
     String name;
     long licenceNumber;
