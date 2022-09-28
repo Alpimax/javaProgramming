@@ -68,15 +68,6 @@ public class DebitCard {
 
 
     }
-    public int[] withoutTen(int[] nums) {
-        int[] arr = new int[nums.length];
 
-        for (int i = 0; i < nums.length ; i++) {
-            if(nums[i] != 10){
-                arr[i]= nums[i];
-            }
-        }return arr;
-
-    }
 
 }
