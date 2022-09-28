@@ -1,5 +1,9 @@
 package practice.Learning.Day37.DebitCard;
 
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
 public class DebitCard {
     //   card number (long), holder name (String), card type (String), pin (int), and balance (double)
     long cardNumber;
@@ -40,5 +44,28 @@ public class DebitCard {
                 '}';
     }
 
+    public static void main(String[] args) {
+        String[] strings = {"xx", "xx", "yy", "xx", "zz", "yy", "zz", "xx"};
+        wordAppend(strings);
+    }
 
+    public static void wordAppend(String[] strings) {
+        Map<String, String> map = new HashMap<>();
+        String name = "";
+
+       for (String each : strings) {
+            if(!map.containsKey(each)){
+                map.put(each,each);
+            }else{
+
+                name += map.get(each);
+                map.remove(each);
+            }
+        }
+
+        System.out.println(name);
+//        wordAppend(["a", "b", "a", "c", "a", "d", "a"]) →"aa"
+
+
+    }
 }
