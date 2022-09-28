@@ -74,9 +74,8 @@ public class DebitCard {
         for (int i = 0; i < nums.length ; i++) {
             if(nums[i] != 10){
                 arr[i]= nums[i];
-
             }
-        }return nums;
+        }return arr;
 
     }
 
