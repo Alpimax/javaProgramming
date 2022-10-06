@@ -12,7 +12,7 @@ public class StreamMethods {
         list1.stream();
         System.out.println(list1.stream().distinct().collect(Collectors.toList()));
 
-
+        List<String> list3 = new ArrayList<>(Arrays.asList("summer", "bike", "fall", "raining", "pond", "lake", "fishing", "sun"));
 
     }
 }
