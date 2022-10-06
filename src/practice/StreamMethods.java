@@ -12,5 +12,7 @@ public class StreamMethods {
         list1.stream();
         System.out.println(list1.stream().distinct().collect(Collectors.toList()));
 
+
+
     }
 }
