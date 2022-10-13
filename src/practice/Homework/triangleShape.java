@@ -31,6 +31,7 @@ public class triangleShape {
 //            temp /= 10;
 //        }
 //        System.out.println(number == total ? "this is Armstrong. " : "this is not Armstrong.");
+
 //        System.out.println("isArmstrongNum(6232416) = " + isArmstrongNum(6232416));
 
     }
