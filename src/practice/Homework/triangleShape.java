@@ -29,6 +29,7 @@ public class triangleShape {
 //            value = temp % 10;
 //            total += Math.pow(value, count);
 //            temp /= 10;
+
 //        }
 //        System.out.println(number == total ? "this is Armstrong. " : "this is not Armstrong.");
 
