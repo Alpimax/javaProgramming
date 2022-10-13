@@ -34,6 +34,7 @@ public class triangleShape {
 
 //        System.out.println("isArmstrongNum(6232416) = " + isArmstrongNum(6232416));
 
+
     }
 
 
