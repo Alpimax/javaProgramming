@@ -24,6 +24,7 @@ public class BestBuy {
         System.out.println(number);
     }
 
+
     public static int[] zerosEnd(int[] arr) {
 
         int[] arr2 = new int[arr.length];
