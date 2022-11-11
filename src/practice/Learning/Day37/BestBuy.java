@@ -12,9 +12,6 @@ public class BestBuy {
 
 
 
-
-
-
     public static void main(String[] args) {
         System.out.println(Arrays.toString(zerosEnd(new int[]{1, 23, 51, 52, 252, 0, 0, 6355, 9, 0, 0, 4, 7, 5, 2})));
         System.out.println(Arrays.toString(conCat(new int[]{1, 23, 51, 52}, new int[]{5, 21, 4, 5, 2})));
